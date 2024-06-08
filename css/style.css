@@ -1,0 +1,176 @@
+body {
+    background-color: #00101F;
+    color: #e2e8f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-transform: uppercase;
+}
+
+span, h2 {
+    color: #dc5a5e;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.line {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #dc5a5e;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+img {
+    height: auto;
+    max-width: 95%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+}
+
+img:hover {
+    filter: brightness(80%);
+}
+
+h2 {
+    font-size: 38px;
+}
+
+small {
+    font-weight: 700;
+}
+
+.line p {
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+h3 {
+    color: #ff0b56;
+}
+
+.input-box {
+
+    padding: 8px;
+    margin: 1px 4px;
+    width: 300px;
+    border-radius: 3px;
+    background-color: #292424;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+textarea {
+    margin: 2px 4px;
+    border-radius: 3px;
+    background-color: #292424;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+}
+
+#contact p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgba(26, 32, 44, 1);
+    margin: 0;
+}
+
+footer p {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.img-map {
+    width: 1700px;
+    height: 400px;
+}
+
+.input-box:focus {
+    color: #FFFFFF;
+}
+
+.img-top {
+    border-radius: 50%;
+}
+@media(min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media(min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media(min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
